@@ -1,0 +1,105 @@
+.hotel-details-section {
+    background: url("../../../assets/images/hotels/hotel-bg.jpg") no-repeat;
+    background-attachment: fixed;
+    background-size: 40% 100%;
+}
+.r2-ratt {
+    margin-bottom: 10px;
+}
+.r2-ratt i {
+    color: #FF9800;
+    font-size: 10px;
+}
+.r2-ratt span {
+    margin-left: 5px;
+}
+.hotel-details-section  .list-group-item{
+    font-size: 14px;
+}
+.inn-detail-p1 {
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+.room-photo-thumb {
+    width: 23%;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+.room-photo-all {
+    display: flex;
+    flex-wrap: wrap;
+}
+.re-room-list-2 h4 {
+    margin-top: 0px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+.re-room-list-2 p {
+    margin-bottom: 10px;
+    color: #727070;
+    font-size: 14px;
+}
+.re-room-list-2 p b{
+    color: #000;
+}
+.re-room-list-2 span {
+    display: block;
+    color: #727070;
+}
+.re-room-list-2 span {
+    font-size: 14px;
+}
+.re-room {
+
+}
+.re-room ul{
+
+}
+.re-room ul li {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px 0;
+}
+.re-room-list-2 span b {
+    color: #213d44;
+}
+.re-room-list-3 span {
+    display: block;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.hot-list-p3-2 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #2a2b33;
+    padding: 0px 0px;
+}
+.re-room-list-3 .custom-btn{
+    padding: 8px 22px;
+}
+@media only screen and (max-width: 991px) {
+    .room-photo-thumb {
+        width: 30%;
+    }
+    .re-room-list-3 span {
+        text-align: left;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .hotel-details-section {
+        background: none !important;
+        background-attachment: none;
+        background-size: none;
+    }
+    
+    
+  }
+  @media only screen and (max-width: 480px) {
+    .room-photo-thumb {
+        width: 47%;
+    }
+  }

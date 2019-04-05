@@ -1,0 +1,59 @@
+.tour-schedule p{
+    color: #000000;
+}
+.comment-main-level {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.comment-box {
+    width: calc(100% - 110px);
+}
+.comments-list .comment-avatar {
+    border: 3px solid #FFF;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    width: 80px;
+}
+.comments-list .comment-box {
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.15);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.15);
+    border-radius: 10px;
+}
+.comment-box .comment-head {
+    background: #F2F3F9;
+    padding: 10px 12px;
+    border-bottom: 1px solid #E5E5E5;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+}
+.comment-box .comment-content {
+    background: #FFF;
+    padding: 12px;
+    font-size: 16.2px;
+    color: #595959;
+    border-radius: 0 0 10px 10px;
+    font-weight: 400;
+    line-height: 1.655;
+}
+.comment-box .comment-head .text-left{
+    margin: 0 15px;
+}
+.comments-list .comment-box div i {
+    color: #FCD462;
+}
+.comment-box .comment-head span {
+    color: #999;
+    font-size: 13px;
+    position: relative;
+    margin-left: 10px;
+    font-family: 'Lato', sans-serif;
+}
+.comments-container {
+    padding: 50px 0;
+}

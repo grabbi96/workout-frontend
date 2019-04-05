@@ -1,0 +1,184 @@
+.restaurent-details {
+}
+
+.restaurent-details .slider-item:nth-child(1) {
+  background: url("../../../assets/images/restuarant/r-one.jpg") no-repeat
+    center center/cover;
+}
+.restaurent-details .slider-item {
+  height: 50vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+}
+.restaurent-details .slider-item h1,
+.restaurent-details .slider-item h2 {
+  color: #fff;
+}
+.restaurent-details .slider-item h2 {
+  font-family: "Dancing Script", cursive;
+  font-size: 60px;
+}
+.r-title {
+  color: #f96323;
+  font-family: "Dancing Script", cursive;
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.r-about-section p {
+  color: #4a4d4f;
+}
+.r-book-section {
+  background: url("../../../assets/images/restuarant/-four.jpg") no-repeat
+    center center/cover;
+  background-attachment: fixed;
+  padding: 150px 0;
+}
+.r-book-content {
+  color: #fff;
+  text-align: center;
+}
+.r-book-content h2 {
+  color: #fff;
+}
+.r-book-content .btn {
+}
+.r-gallery-item {
+  display: flex;
+  flex-wrap: wrap;
+}
+.r-gallery-item img {
+  width: 24%;
+  height: 223px;
+  margin: 5px;
+}
+section.footer-top-section {
+  background: url("../../../assets/images//restuarant/r-footer_bg_2.jpg")
+    no-repeat center center/cover;
+  background-attachment: fixed;
+}
+.footer-address p {
+  color: #fff;
+}
+.footer-address p a {
+  color: #f96323;
+}
+.footer-social-bookmark ul {
+  display: flex;
+  justify-content: center;
+}
+.footer-social-bookmark ul li {
+  margin: 0 15px;
+}
+.footer-social-bookmark ul li a {
+  color: #c4c3c3;
+  font-size: 25px;
+}
+
+ul.react-tabs__tab-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+ul.react-tabs__tab-list li{
+
+}
+ul.react-tabs__tab-list li button {
+  padding: 10px 20px !important;
+  color: #f96323 !important;
+  border-color: #f96323 !important;
+}
+ul.react-tabs__tab-list li button:hover{
+  border-color: #f96323 !important;
+    background-color: #f96323 !important;
+    color: #fff !important;
+}
+ul.react-tabs__tab-list li .btn-outline-default:focus, .btn-outline-default:not([disabled]):not(.disabled):active {
+  border: 2px solid #f96323 !important;
+  background-color: #f96323 !important;
+  color: #fff !important;
+}
+.single-menu-details {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #E4E4E4;
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+}
+.food-menu-img img {
+  border-radius: 50%;
+}
+.modal-footer {
+  justify-content: center !important;
+}
+.food-menu-img {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  -webkit-box-shadow: 0 0 0 10px #ddd;
+  box-shadow: 0 0 0 10px #ddd;
+}
+.food-menu-details h3 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+.food-menu-details h3 span {
+  color: #f96332;
+  float: right;
+}
+.food-menu-details {
+  width: calc(100% - 100px);
+  padding-left: 26px;
+}
+.menu-speacification {
+  margin-bottom: 0;
+  color: #1e1e1f;
+}
+.food-menu-details p span {
+  display: inline-block;
+  width: 30%;
+}
+.react-tabs__tab-panel{
+  margin-top: 50px;
+}
+
+.food-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.r-book-section .modal-dialog {
+  max-width: 600px;
+}
+.r-book-section .md-form .prefix{
+  left: 0;
+}
+.r-banner-section .swiper-pagination-bullet-active {
+  background: #f96322 !important;
+}
+
+
+@media only screen and (max-width: 768px) {
+  ul.react-tabs__tab-list li button {
+    padding: 5px 12px !important;
+}
+.food-menu-details{
+  width: 100%;
+    padding-left: 0;
+    padding: 0 15px;
+    margin-top: 20px;
+}
+.single-menu-details{
+  flex-direction: column;
+  align-items: center;
+}
+.r-gallery-item img{
+  width: 45%;
+  height: 223px;
+  margin: 5px;
+}
+}
+
+
